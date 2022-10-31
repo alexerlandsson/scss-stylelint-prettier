@@ -1,0 +1,26 @@
+{
+  "name": "scss-stylelint-prettier",
+  "version": "1.0.0",
+  "description": "Stylelint and Prettier settings I use for scss.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "stylelint": "stylelint '**/*.scss'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexerlandsson/scss-stylelint-prettier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexerlandsson/scss-stylelint-prettier/issues"
+  },
+  "homepage": "https://github.com/alexerlandsson/scss-stylelint-prettier#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "stylelint": "^14.14.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^6.0.0"
+  }
+}
